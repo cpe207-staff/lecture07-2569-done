@@ -206,3 +206,5 @@ app.delete("/students", (req: Request, res: Response) => {
 app.listen(port, async () => {
   debug(`🚀 Server running on http://localhost:${port}`);
 });
+
+export default app;
